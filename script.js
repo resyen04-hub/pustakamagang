@@ -10,4 +10,6 @@ function loadHTML(id, file) {
 // Panggil header dan footer
 loadHTML('header-container', 'header.html');
 loadHTML('footer-container', 'footer.html');
-
+    function kirim() {
+        alert ("Email Terkirim!");
+    }
